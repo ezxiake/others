@@ -1,0 +1,14 @@
+# VMs list
+ansible_manager_Oregon ansible_ssh_port=22 ansible_ssh_host=172.31.29.69
+test_cassandra_cluster_1 ansible_ssh_port=22 ansible_ssh_host=172.31.29.252
+test_cassandra_cluster_2 ansible_ssh_port=22 ansible_ssh_host=172.31.28.15
+test_cassandra_cluster_3 ansible_ssh_port=22 ansible_ssh_host=172.31.31.126
+
+
+[group1]
+test_cassandra_cluster_1
+
+[group2]
+test_cassandra_cluster_2
+test_cassandra_cluster_3
+

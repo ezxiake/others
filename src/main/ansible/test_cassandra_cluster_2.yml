@@ -1,0 +1,5 @@
+---
+# file: test_cassandra_cluster_2.yml
+- hosts: test_cassandra_cluster_2
+  roles:
+    - create_vms

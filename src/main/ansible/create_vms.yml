@@ -1,0 +1,5 @@
+---
+# file: create_vms.yml
+- hosts: localhost
+  roles:
+    - create_vms

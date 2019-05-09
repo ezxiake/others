@@ -1,0 +1,5 @@
+---
+# file: group1.yml
+- hosts: group1
+  roles:
+    - install_zookeeper

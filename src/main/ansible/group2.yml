@@ -1,0 +1,5 @@
+---
+# file: group2.yml
+- hosts: group2
+  roles:
+    - install_kafka

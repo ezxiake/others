@@ -1,0 +1,52 @@
+---    
+env:
+    # hostname of master node
+    hostnameOrIp: localhost
+    #hostnameOrIp: 172.31.23.107
+    # namespace     
+    namespace: assuredplus
+settings4MsgSend:
+    # message total to be sent for each device
+    msgTotalToSendPerDevice: 1
+    # for each device, send msg in interval of xx millisecond    
+    intervalInMsToSend: 1000
+    # prefix for each deviceId; Receive app only focus on msg with this prefix
+    DeviceIdPre: 94016
+    # device count; all devices will try to send msg with same seqNo on the same time
+    DeviceIdCount: 1
+    # time receive app will wait to try to receive all msg. After this time, receive app will make statistics(e.g. avgDelay)
+    #delayThresholdInMin: 1
+    # sqs that msg sent to
+    #sqs: https://sqs.ap-southeast-1.amazonaws.com/991189208874/Trackimo_test
+    sqs: https://sqs.ap-southeast-1.amazonaws.com/991189208874/Oaxis_Test
+    # log message id if the delay is greater than what is specified
+    messageIdLogDelayThreshold: 3000
+    # The time of final calculate e2e result, delay seconds.
+    FinalCalcTimeDelaySecond: 60   
+extPubAllDevice:
+    # channels to be published
+    channels:
+        - assured.pubnub.source_1  
+#intSubAllDevice:
+#    # channels to be subscribed
+#    channels:
+#        - assured.pubnub.source_1  
+extSubGeozilla:
+    # channels to be subscribed
+    channels:
+        - assured.geozilla.location.1
+        - assured.geozilla.location.2
+        - assured.geozilla.location.3
+registerAndDelete:
+    vendor: trackimo
+    offerId: offerId92924
+    geozilla_user_idPre: 92924
+    imeiImsiMsidnPre: IIM92924
+    generic_id1Pre: 92924
+    # 5
+    deviceCount: 2
+    regDelPerDevice: 2
+    # 30s
+    intervalInMsToPerformAction: 3000
+    terminationWaitExponent: 5
+...             

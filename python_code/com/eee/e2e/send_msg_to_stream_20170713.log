@@ -1,0 +1,72 @@
+2017-07-13 14:12:59,145 [INFO]  Ready to send messages ...
+2017-07-13 14:12:59,145 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_0\",\"SeqNo\":0,\"TimeStamp\":\"1499926379146\",\"LastContact\":\"1499926379146\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,146 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_1\",\"SeqNo\":0,\"TimeStamp\":\"1499926379147\",\"LastContact\":\"1499926379147\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,146 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_2\",\"SeqNo\":0,\"TimeStamp\":\"1499926379147\",\"LastContact\":\"1499926379147\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,146 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_0\",\"SeqNo\":0,\"TimeStamp\":\"1499926379146\",\"LastContact\":\"1499926379146\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,146 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_3\",\"SeqNo\":0,\"TimeStamp\":\"1499926379147\",\"LastContact\":\"1499926379147\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,146 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_4\",\"SeqNo\":0,\"TimeStamp\":\"1499926379147\",\"LastContact\":\"1499926379147\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,146 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_1\",\"SeqNo\":0,\"TimeStamp\":\"1499926379147\",\"LastContact\":\"1499926379147\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,146 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_2\",\"SeqNo\":0,\"TimeStamp\":\"1499926379147\",\"LastContact\":\"1499926379147\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,150 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_3\",\"SeqNo\":0,\"TimeStamp\":\"1499926379147\",\"LastContact\":\"1499926379147\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,150 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_4\",\"SeqNo\":0,\"TimeStamp\":\"1499926379147\",\"LastContact\":\"1499926379147\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,178 [ERROR]  send 0 of e2eTest20170704_01_2 failure.
+2017-07-13 14:12:59,182 [ERROR]  send 0 of e2eTest20170704_01_0 failure.
+2017-07-13 14:12:59,182 [ERROR]  send 0 of e2eTest20170704_01_3 failure.
+2017-07-13 14:12:59,195 [ERROR]  send 0 of e2eTest20170704_01_1 failure.
+2017-07-13 14:12:59,197 [ERROR]  send 0 of e2eTest20170704_01_4 failure.
+2017-07-13 14:12:59,678 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_2\",\"SeqNo\":1,\"TimeStamp\":\"1499926379679\",\"LastContact\":\"1499926379679\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,679 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_2\",\"SeqNo\":1,\"TimeStamp\":\"1499926379679\",\"LastContact\":\"1499926379679\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,682 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_0\",\"SeqNo\":1,\"TimeStamp\":\"1499926379683\",\"LastContact\":\"1499926379683\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,682 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_0\",\"SeqNo\":1,\"TimeStamp\":\"1499926379683\",\"LastContact\":\"1499926379683\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,683 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_3\",\"SeqNo\":1,\"TimeStamp\":\"1499926379684\",\"LastContact\":\"1499926379684\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,683 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_3\",\"SeqNo\":1,\"TimeStamp\":\"1499926379684\",\"LastContact\":\"1499926379684\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,698 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_1\",\"SeqNo\":1,\"TimeStamp\":\"1499926379699\",\"LastContact\":\"1499926379699\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,702 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_1\",\"SeqNo\":1,\"TimeStamp\":\"1499926379699\",\"LastContact\":\"1499926379699\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,702 [DEBUG]  {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_4\",\"SeqNo\":1,\"TimeStamp\":\"1499926379703\",\"LastContact\":\"1499926379703\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+2017-07-13 14:12:59,702 [DEBUG]  cdap cli << !
+use namespace production
+send stream pubnubIngress {"id":"assured.pubnub.source_1-14999252927539282","channel":"assured.pubnub.source_1","timestamp":14999252927539282,"payload":"{\"DeviceID\":\"e2eTest20170704_01_4\",\"SeqNo\":1,\"TimeStamp\":\"1499926379703\",\"LastContact\":\"1499926379703\",\"Position\":{\"Lat\":\"47.383824586868286\",\"Lon\":\"-101.97548815049232\",\"Accuracy\":251,\"Compass\":301.01,\"PTimeStamp\":\"1493231058\"},\"Battery\":100,\"Steps\":100,\"Calories\":25}"}
+exit
+!
+2017-07-13 14:12:59,704 [ERROR]  send 1 of e2eTest20170704_01_0 failure.
+2017-07-13 14:12:59,704 [ERROR]  send 1 of e2eTest20170704_01_2 failure.
+2017-07-13 14:12:59,717 [ERROR]  send 1 of e2eTest20170704_01_3 failure.
+2017-07-13 14:12:59,728 [ERROR]  send 1 of e2eTest20170704_01_4 failure.
+2017-07-13 14:12:59,749 [ERROR]  send 1 of e2eTest20170704_01_1 failure.
+2017-07-13 14:13:00,229 [INFO]  Messages are sent to stream complete.

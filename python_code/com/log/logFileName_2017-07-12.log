@@ -1,0 +1,5 @@
+2017-07-12 10:57:50,039 [DEBUG]  debug message
+2017-07-12 10:57:50,039 [INFO]  info message
+2017-07-12 10:57:50,039 [WARNING]  warn message
+2017-07-12 10:57:50,039 [ERROR]  error message
+2017-07-12 10:57:50,040 [CRITICAL]  critical message

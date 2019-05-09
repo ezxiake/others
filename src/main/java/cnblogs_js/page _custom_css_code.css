@@ -1,0 +1,74 @@
+<style type="text/css">
+#cnblogs_post_body
+{
+    color: black;
+    font: 0.875em/1.5em "微软雅黑" , "PTSans" , "Arial" ,sans-serif;
+    font-size: 16px;
+}
+#cnblogs_post_body h2    {
+    background: #2B6695;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+    font-size: 17px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    margin: 18px 0 !important;
+    padding: 8px 0 5px 5px;
+    text-shadow: 2px 2px 3px #222222;
+}
+#cnblogs_post_body h3{
+    background: #2B6600;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+    font-size: 13px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 23px;
+    margin: 12px 0 !important;
+    padding: 5px 0 5px 20px;
+    text-shadow: 2px 2px 3px #222222;
+}
+#cnblogs_post_body a {
+    color: #21759b;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+#cnblogs_post_body a:hover{
+    margin-left: 10px
+}
+
+#navCategory a{
+    display: block;
+    transition: all 1s;
+    
+}
+#navCategory a:hover{
+    margin-left: 10px
+}
+
+#blog-sidecolumn  a{
+    display: block;
+    transition:all 1s;
+}
+#blog-sidecolumn a:hover{
+    margin-left: 10px
+}
+
+#sidebar_toptags li a{
+    float:left;
+}
+#TopViewPostsBlock li a{
+    margin-left: 5px;
+}
+#cnblogs_post_body a{
+    display: inline-block;
+    transition:all 1s;
+}
+</style>

@@ -1,0 +1,43 @@
+---
+pubnubs:
+    mobileToserverKeySet:
+        pubKey: pub-c-ef459af3-7457-44fb-bf8f-cac40eec6986
+        subKey: sub-c-9739635c-6648-11e7-9bf2-0619f8945a4f
+        secKey: sec-c-OWIwZThiNzMtOGFiNS00ODBkLWExOTktYzY3MmVkZmM2M2Q1
+        authKey: u74Rzv2utwwTl3XsUL7kNxfBMeb6BxJKzwci0hEdlr2FcAuYJ6y5ZjupHRNS9VUgUG4zGCXfEZhA5hAyuxEu1QVYeDXkkWkWKMdezmteZJgOAVOHGhB2pfEuFazr4Nse
+        cipherKey: NJayJIKq5BzGvanAzrojSE01Z4QeRzHmfCklhL8LeGyFZ36UfhbhMZBLXgLUVQoXUuHnV6fgiaCvnuOdEXHJiGt67figsyH7Acl2VivfUrBiAB3lUHkVvBnr5H76j7C4
+        channelsIn:
+            - assured.pubnub.source_1
+        channelsOut:
+    subscribeTo1stPubnubKeySet:
+        pubKey: pub-c-ef459af3-7457-44fb-bf8f-cac40eec6986
+        subKey: sub-c-9739635c-6648-11e7-9bf2-0619f8945a4f
+        secKey: sec-c-OWIwZThiNzMtOGFiNS00ODBkLWExOTktYzY3MmVkZmM2M2Q1
+        authKey: iHhZBBOrOaMOKQbXAxv9KLslIaUFmpoKXpUBKEjt3NMNLTW31Nf40I96Y3q6CcRtyMaQexefg9AnSNVO8W8jsIH9N8aOHIMaNgaPar0Uq86QmrfAcIbndl44V1tBDrvo
+        cipherKey: NJayJIKq5BzGvanAzrojSE01Z4QeRzHmfCklhL8LeGyFZ36UfhbhMZBLXgLUVQoXUuHnV6fgiaCvnuOdEXHJiGt67figsyH7Acl2VivfUrBiAB3lUHkVvBnr5H76j7C4
+        channelsIn:
+        channelsOut:
+            - assured.pubnub.source_1
+    #geozilla_subscribe_publish
+    serverTomobileKeySet:
+        pubKey: pub-c-220c38ff-e319-4c5a-9085-39884e977bf5
+        subKey: sub-c-960bdbae-6648-11e7-b6db-02ee2ddab7fe
+        secKey: sec-c-MDQwYjQyN2UtY2EyMS00NWIxLTgxNjYtM2Q1OWI3MDg5N2Fi
+        authKey: cJmxPXZ7AWXiwZrAClSc5RN97SFooxh3adPYkMJEECwIzNvs4ztaZ23LwsoKD5jBH6APwdDMdLLmcvpRvsN1k9FdTpnirEg2UkNWBBzIy3dV6cSGEHrxPjEkvViYwryc
+        cipherKey: kktaU5YtZxKahTk4U3ND0L5Hh3t5Hh43qGIQ1RbMHPvbnObczHQvIfczSgYvcFHA1bziwtv2KHfHzPgZ7ady8YHPBrQeg5u4vHfQxagB6dBA39fftFPU0bfDj4o3vsNz
+        channelsIn:
+        channelsOut:
+            #- assured.geozilla.user_onboarding
+            #- assured.geozilla.device_onboarding
+            #- assured.geozilla.alerts
+            - assured.geozilla.location
+            #- assured.geozilla.fitness
+            #- assured.geozilla.presence
+            #- assured.geozilla.geofence
+settings4MsgSend:
+    msgTotalToSendPerDevice: 2
+    intervalInMsToSend: 500
+    DeviceIdPre: e2eTest20170714_01_
+    DeviceIdCount: 5
+    delayThresholdInMin: 1
+...

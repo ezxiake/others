@@ -1,0 +1,5 @@
+---
+# file: site.yml
+- include: group1.yml
+- include: group2.yml
+- include: test_cassandra_cluster_2.yml
